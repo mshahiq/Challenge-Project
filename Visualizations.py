@@ -10,7 +10,7 @@ plt.xlabel('Release Year')
 plt.ylabel('Rating')
 plt.title('Ratings of the Movies')
 plt.show()
-
+plt.show()
 # no.of movies vs. director
 
 # pie chart 
