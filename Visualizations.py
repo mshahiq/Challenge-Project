@@ -14,7 +14,7 @@ df = pd.DataFrame(data)
 #sorted_dateyears.to_csv('D:/AI-Course/Challenge-IMDB/Challenge-Project/imdb_challenge_drsort.csv')
 
 # Rating movies vs. Release Year (Figure_1)
-'''
+
 x = df['Date Release']
 y = df['Ratings']
 plt.scatter(x,y)
@@ -22,8 +22,8 @@ plt.xlabel('Release Year')
 plt.ylabel('Ratings')
 
 plt.title('Ratings of the Movies')
-#plt.show()
-
+plt.show()
+'''
 # no.of movies vs. director
 
 #plt.plot(df['Director'], df['Movie Number'])
@@ -39,7 +39,7 @@ plt.ylabel('Number of Movies')
 plt.title('Relation of directors and # of movies')
 plt.bar(df1['Director'], df1['Count'])
 plt.show()
-
+'''
 '''
 # no.of movies vs. actors
 
@@ -56,4 +56,4 @@ plt.ylabel('Number of Movies')
 plt.title('Relation of actors and # of movies')
 plt.bar(df2['Movie Stars'], df2['Count'])
 plt.show()
-
+'''
